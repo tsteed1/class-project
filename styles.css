@@ -1,0 +1,28 @@
+body {
+    color: purple;
+    background-color: lightblue
+}
+
+article img {
+    width: 200px;
+}
+
+article {
+    font-style: italic;
+    text-align: center;
+}
+
+nav {float:left}
+
+header li {
+    display: inline-block;
+    width: 100px;
+    background-color:lightgreen;
+    padding: 5px;
+    text-align: center;
+    
+}
+header img { 
+    background-color: lightblue;
+    width: 80px;
+}
