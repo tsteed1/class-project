@@ -1,6 +1,7 @@
 body {
     color: purple;
-    background-color: lightblue
+    background-color: lightblue;
+    text-align: center
 }
 
 article img {
@@ -12,7 +13,6 @@ article {
     text-align: center;
 }
 
-nav {float:left}
 
 header li {
     display: inline-block;
@@ -24,4 +24,8 @@ header li {
 }
 header img { 
     background-color: lightblue;
+}
+
+header {
+    height: 700px;
 }
