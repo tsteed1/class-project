@@ -1,7 +1,7 @@
 body {
-    color: purple;
-    background-color: lightblue;
-    text-align: center
+    color: rgb(27, 14, 14);
+    background-color: rgb(111, 117, 119);
+    text-align: center;
 }
 
 article img {
@@ -17,14 +17,12 @@ article {
 header li {
     display: inline-block;
     width: 100px;
-    background-color:lightgreen;
+    background-color:rgb(204, 199, 197);
     padding: 5px;
     text-align: center;
     
 }
-header img { 
-    background-color: lightblue;
-}
+
 
 header {
     height: 700px;

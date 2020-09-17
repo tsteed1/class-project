@@ -20,12 +20,11 @@ function getPizza() {
     var message;
 
     while(response != 'yes' && response != 'no') {
-        message = prompt('Do you like to eat pizza? BE SPECIFIC')
+        message = prompt('Do you like to eat pizza? BE SPECIFIC');
     }
 
     if (response === 'yes') {
-    item = "<img src=../images/creepypizza.jpg">;
-        item = 'Great! Let us show you some of the favorites in the Seattle area!';
+        message = 'Great! Let us show you some of the favorites in the Seattle area!';
     }
     else if (response === 'no') {
         message = 'I am sorry to hear that!';
@@ -52,7 +51,7 @@ function showOrder() {
     var itemType = getPizza();
 
     for(var i =0; i < total; i++) {
-        result = result + '<p>' + itemType + '</p>'
+        result = result + '<p>' + itemType + '</p>';
     }
 
     return document.write(result);
